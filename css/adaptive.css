@@ -1,0 +1,219 @@
+@media screen and (min-width: 1200px) {
+  .main-title__title {
+    font-size: 144px;
+  }
+
+  .footer-bottom__phone {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-navigation {
+    margin-top: 10px;
+  }
+
+  .nav__link {
+    font-size: 14px;
+  }
+
+  .contacts__phone {
+    font-size: 14px;
+  }
+
+  .main-title__title {
+    letter-spacing: 0.225em;
+  }
+
+  .section {
+    margin: 150px 0 0;
+  }
+
+  .content-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .content-about__body-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .content-about__body-content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .content-about__paragraph {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .content-about__body-img {
+    width: 100%;
+    max-width: 640px;
+  }
+  .content-about__body-img img {
+    width: 100%;
+  }
+
+  .housing .content-about__body-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .header {
+    position: relative;
+    z-index: 10;
+  }
+
+  .nav-wrapper {
+    position: relative;
+  }
+  .nav-wrapper:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 68px;
+  }
+
+  .nav {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    margin-top: 22px;
+    overflow: auto;
+    z-index: -1;
+  }
+  .nav__list {
+    display: block;
+  }
+  .nav__item {
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .nav__item:first-child {
+    margin-left: 20px;
+  }
+  .nav__link {
+    font-size: 18px;
+  }
+
+  .menu--active {
+    left: 0;
+  }
+
+  .contacts__btn {
+    padding: 10px 12px;
+  }
+
+  .footer-content {
+    padding: 30px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer-content__left {
+    margin-bottom: 50px;
+  }
+
+  .cpecification__item-img {
+    display: none;
+  }
+
+  .tabs {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-title__title {
+    font-size: calc(38px + 180.2 * (100vw - 320px) / 1200);
+  }
+}
+@media screen and (max-width: 640px) {
+  .section {
+    margin: 120px 0 0;
+  }
+
+  .content-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .tabs.content-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .about-video__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  
+}
+@media screen and (max-width: 520px) {
+  .section {
+    margin: 50px 0 0;
+  }
+
+  .contacts__phone {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .footer-content__right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer-content__right-column {
+    margin-bottom: 30px;
+  }
+  .footer-content__right-column:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom__phone {
+    display: none;
+  }
+
+  .cpecification__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .cpecification__item-title {
+    margin-bottom: 6px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-title__title {
+    font-size: 44px;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */

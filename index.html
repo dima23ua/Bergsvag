@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Bergsvåg</title>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="fonts/Roboto.woff2">
+   <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+   <div class="site-container">
+      <header class="header">
+         <div class="container">
+
+            <div class="header-navigation">
+               <!-- Меню Бургер -->
+
+               <div class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+                  <span class="burger__line"></span>
+               </div>
+
+               <nav data-menu class="nav" title="header-navigation">
+                  <div class="nav-wrapper">
+                     <ul class="nav__list list-reset">
+                        <li class="nav__item">
+                           <a href="" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link">Advantages</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link">Apartments</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link">Penthouses</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link">Contacts</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+
+               <div class="contacts">
+                  <div class="contacts__phone" data-da=".nav-wrapper,520,last">
+                     <a href="tel:+480000000000">+48 000 00 00 000</a>
+                  </div>
+                  <div class="contacts__btn btn">Request a call</div>
+               </div>
+            </div>
+
+         </div>
+      </header>
+
+      <section class="section-main">
+         <div class="container">
+            <div class="main-title">
+               <h1 class="main-title__title">Bergsvåg</h1>
+            </div>
+         </div>
+
+         <div class="main-img">
+            <!-- Картинка -->
+            <picture>
+               <source srcset="img/main.avif" type="image/avif">
+               <source srcset="img/main.webp" type="image/webp">
+               <img loading="lazy" src="img/main.jpg" alt="Фон" title="Фон">
+            </picture>
+         </div>
+      </section>
+
+      <section class="section about">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">About company</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">The concept was inspired by the original
+                           architecture of the House itself: the geometric elements of the front facade, which attract
+                           attention, the bright and spacious rooms with five-meter ceilings, immediately send to the
+                           aesthetics of Scandinavian.</p>
+                     </div>
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">
+                           The creators of the project wanted to take you to the hygge atmosphere. Where everything is
+                           saturated with comfort, warmth and the smell of homemade cakes with cinnamon.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="about-video">
+            <div class="about-video__img">
+               <!-- Картинка -->
+               <picture>
+                  <source srcset="img/play.avif" type="image/avif">
+                  <source srcset="img/play.webp" type="image/webp">
+                  <img loading="lazy" src="img/play.png" alt="play" title="play">
+               </picture>
+            </div>
+
+            <div class="image">
+               <!-- Картинка -->
+               <picture>
+                  <source srcset="img/video.avif" type="image/avif">
+                  <source srcset="img/video.webp" type="image/webp">
+                  <img loading="lazy" src="img/video.jpg" alt="About company" title="About company">
+               </picture>
+            </div>
+         </div>
+      </section>
+
+      <!-- Location -->
+      <section class="section">
+         <div class="container">
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Location</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-content upper">
+                        <p class="content-about__paragraph p-reset">stengade str, 85</p>
+                     </div>
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">Bergsvåg is designed around a vision of creating
+                           small-scale public spaces inserted in harmony with nature.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="content-about tabs">
+               <div class="section-title ">
+                  <div class="tab-title">
+
+                     <!-- Слайдер -->
+                     <div class="tab-slider swiper-content">
+                        <div class="tab-slider__wrapper swiper-wrapper">
+                           <!--Слайд-1-->
+                           <div class="tab-slider__slide swiper-slide">
+                              <div class="tab-title__title active" data-tab="pharmacy">Pharmacy</div>
+                           </div>
+                           <!--Слайд-2-->
+                           <div class="tab-slider__slide swiper-slide">
+                              <div class="tab-title__title" data-tab="shoping">Shoping mall</div>
+                           </div>
+                           <!--Слайд-3-->
+                           <div class="tab-slider__slide swiper-slide">
+                              <div class="tab-title__title" data-tab="veterinary">Veterinary clinic</div>
+                           </div>
+                           <!--Слайд-4-->
+                           <div class="tab-slider__slide swiper-slide">
+                              <div class="tab-title__title" data-tab="coffee">Coffee houses</div>
+                           </div>
+                           <!--Слайд-5-->
+                           <div class="tab-slider__slide swiper-slide">
+                              <div class="tab-title__title" data-tab="museums">Museums</div>
+                           </div>
+                        </div>
+
+                     </div>
+                     <!-- Слайдер - end -->
+
+                  </div>
+               </div>
+               <div class="content-about__body">
+                  <div class="tab-content">
+                     <!-- Pharmasy Map -->
+                     <div class="tab-content__content active pharmacy">
+                        <div id="map" class="tab-content__content-map"></div>
+                     </div>
+                     <!-- Shopping Mall Map-->
+                     <div class="tab-content__content shoping">
+                        <div id="shopping" class="tab-content__content-map"></div>
+                     </div>
+                     <!-- Veterynary Clinic Map -->
+                     <div class="tab-content__content veterinary">
+                        <div id="veterinary" class="tab-content__content-map"></div>
+                     </div>
+                     <!-- Coffee house Map -->
+                     <div class="tab-content__content coffee">
+                        <div id="coffee" class="tab-content__content-map"></div>
+                     </div>
+                     <!-- Museums Map -->
+                     <div class="tab-content__content museums">
+                        <div id="museum" class="tab-content__content-map"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="section">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Advantages</h2>
+               </div>
+
+               <div class="content-about__body">
+
+                  <div class="slider swiper-content">
+                     <div class="slider__wrapper swiper-wrapper">
+                        <!--Слайд-1-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-1.avif" type="image/avif">
+                                    <source srcset="img/slider/img-1.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-1.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Unique architecture</div>
+                           </div>
+                        </div>
+                        <!--Слайд-2-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-2.avif" type="image/avif">
+                                    <source srcset="img/slider/img-2.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-2.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Fitness zone</div>
+                           </div>
+                        </div>
+                        <!--Слайд-3-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-3.avif" type="image/avif">
+                                    <source srcset="img/slider/img-3.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-3.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Children’s area</div>
+                           </div>
+                        </div>
+                        <!--Слайд-4-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-1.avif" type="image/avif">
+                                    <source srcset="img/slider/img-1.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-1.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Unique architecture</div>
+                           </div>
+                        </div>
+                        <!--Слайд-5-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-2.avif" type="image/avif">
+                                    <source srcset="img/slider/img-2.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-2.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Fitness zone</div>
+                           </div>
+                        </div>
+                        <!--Слайд-6-->
+                        <div class="slider__slide swiper-slide">
+                           <div class="slider-slide__content">
+                              <div class="slider-slide__content-img">
+                                 <!-- Картинка -->
+                                 <picture>
+                                    <source srcset="img/slider/img-3.avif" type="image/avif">
+                                    <source srcset="img/slider/img-3.webp" type="image/webp">
+                                    <img loading="lazy" src="img/slider/img-3.jpg" alt="slide foto" title="slide foto">
+                                 </picture>
+                              </div>
+                              <div class="slider-slide__content-text">Children’s area</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <!-- Кнопки навигации -->
+                  <div class="slider-nav-panel">
+                     <div class="swiper-button-prev arrow"></div>
+                     <!-- Пагинация -->
+                     <div class="slider-pagination">
+                        <div class="swiper-pagination"></div>
+                     </div>
+                     <div class="swiper-button-next arrow"></div>
+                  </div>
+                  <div class="slider-scrollbar">
+                     <div class="swiper-scrollbar"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="section style">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Style</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <p class="content-about__paragraph p-reset">The concept was inspired by the original
+                        architecture
+                        of the House itself: the geometric elements of the front facade, which attract attention, the
+                        bright and spacious rooms with five-meter
+                        ceilings, immediately send to the aesthetics of Scandinavian.
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="down-slider">
+               <!-- Слайдер -->
+               <div class="down swiper-content">
+                  <div class="down__wrapper swiper-wrapper">
+                     <!--Слайд-1-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img1.avif" type="image/avif">
+                              <source srcset="img/slider/img1.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img1.jpg" alt="slide1" title="slide1">
+                           </picture>
+                        </div>
+                     </div>
+                     <!--Слайд-2-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img2.avif" type="image/avif">
+                              <source srcset="img/slider/img2.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img2.jpg" alt="slide2" title="slide2">
+                           </picture>
+                        </div>
+                     </div>
+                     <!--Слайд-3-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img1.avif" type="image/avif">
+                              <source srcset="img/slider/img1.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img1.jpg" alt="slide3" title="slide3">
+                           </picture>
+                        </div>
+                     </div>
+                     <!--Слайд-4-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img2.avif" type="image/avif">
+                              <source srcset="img/slider/img2.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img2.jpg" alt="slide4" title="slide4">
+                           </picture>
+                        </div>
+                     </div>
+                     <!--Слайд-5-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img1.avif" type="image/avif">
+                              <source srcset="img/slider/img1.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img1.jpg" alt="slide5" title="slide5">
+                           </picture>
+                        </div>
+                     </div>
+                     <!--Слайд-6-->
+                     <div class="down__slide swiper-slide">
+                        <div class="down__img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/slider/img2.avif" type="image/avif">
+                              <source srcset="img/slider/img2.webp" type="image/webp">
+                              <img loading="lazy" src="img/slider/img2.jpg" alt="slide6" title="slide6">
+                           </picture>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+               <!-- Кнопки навигации -->
+               <div class="down-swiper-buttons">
+                  <div class="swiper-button-next-down"></div>
+                  <!-- Пагинация -->
+                  <div class="slider-pagination-down">
+                     <div class="swiper-pagination-down"></div>
+                  </div>
+                  <div class="swiper-button-prev-down"></div>
+               </div>
+               <!-- Навигация -->
+               <div class="slider-scrollbar">
+                  <div class="swiper-scrollbar-down"></div>
+               </div>
+            </div>
+            <!-- Слайдер - end -->
+         </div>
+
+      </section>
+
+      <!-- Appartment - Апартаменты -->
+      <section class="section housing">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Apartments</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">From the second to the sixth floor, apartments of
+                           various sizes are harmoniously planned from 35 to 80 m², the residents of each of which
+                           are
+                           guaranteed maximum privacy and comfort.
+                        </p>
+                        <div class="content-about__bottom-link">
+                           <a href="" class="content-about__link">Request a quote</a>
+                        </div>
+                     </div>
+                     <div class="content-about__body-content">
+                        <div class="content-about__body-img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/apartment.avif" type="image/avif">
+                              <source srcset="img/apartment.webp" type="image/webp">
+                              <img loading="lazy" src="img/apartment.jpg" alt="apartment" title="apartment">
+                           </picture>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Penthouses</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">There are several penthouses on the seventh floor
+                           of
+                           the House. At the disposal of their residents: high ceilings of 5.5 meters, free planning
+                           to
+                           create
+                           a stylish, solemn interior.
+                        </p>
+                        <div class="content-about__bottom-link">
+                           <a href="" class="content-about__link">Request a quote</a>
+                        </div>
+                     </div>
+                     <div class="content-about__body-content">
+                        <div class="content-about__body-img">
+                           <!-- Картинка -->
+                           <picture>
+                              <source srcset="img/penthouse.avif" type="image/avif">
+                              <source srcset="img/penthouse.webp" type="image/webp">
+                              <img loading="lazy" src="img/penthouse.jpg" alt="penthouse" title="penthouse">
+                           </picture>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!-- Comfort zone -->
+      <section class="section comfort">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Comfort zone</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">The House has its own fitness area, on the ground
+                           floor, for the services of residents and their guests:
+                           a cafe and a grocery store, a pharmacy, dry cleaning, a beauty salon and a medical center.
+                        </p>
+                     </div>
+                     <div class="content-about__body-content">
+                        <p class="content-about__paragraph p-reset">In the northern part of the house, for small
+                           residents, there is a well-equipped playground for entertainment. An open eco-terrace in
+                           the
+                           eastern part of the house, quiet and protected from city noise.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="about-video">
+               <div class="image">
+                  <!-- Картинка -->
+                  <picture>
+                     <source srcset="img/comfort.avif" type="image/avif">
+                     <source srcset="img/comfort.webp" type="image/webp">
+                     <img loading="lazy" src="img/comfort.jpg" alt="Comfort zone" title="Comfort zone">
+                  </picture>
+               </div>
+            </div>
+         </div>
+
+      </section>
+
+      <!-- Technical specification -->
+      <section class="section specification">
+         <div class="container">
+
+            <div class="content-about">
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Technical specification</h2>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="cpecification">
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Service</div>
+                        <div class="cpecification__item-content">Two reception areas 24/7</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Parking</div>
+                        <div class="cpecification__item-content">
+                           Two reception areas 24/7
+                           <div class="cpecification__item-img">
+                              <!-- Картинка -->
+                              <picture>
+                                 <source srcset="img/parking.avif" type="image/avif">
+                                 <source srcset="img/parking.webp" type="image/webp">
+                                 <img loading="lazy" src="img/parking.jpg" alt="parking" title="parking">
+                              </picture>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Security system</div>
+                        <div class="cpecification__item-content">Наземный, охраняемый паркинг</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Elevators</div>
+                        <div class="cpecification__item-content">Видеонаблюдение, охранная сигнализация </div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Territory</div>
+                        <div class="cpecification__item-content">Бесшумные, премиальные лифты OTIS</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Windows</div>
+                        <div class="cpecification__item-content">Огороженная и охраняемая территория</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Fire alarm</div>
+                        <div class="cpecification__item-content">Automatic fire extinguishing system</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Conditioning</div>
+                        <div class="cpecification__item-content">Central air conditioning</div>
+                     </div>
+
+                     <div class="cpecification__item">
+                        <div class="cpecification__item-title">Ventilation</div>
+                        <div class="cpecification__item-content">Forced supply and exhaust ventilation system</div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- seven floors -->
+      <section class="section floors">
+         <div class="container">
+            <div class="content-about">
+
+               <!-- Заголовок -->
+               <div class="section-title">
+                  <h2 class="section-title__title">Bergsvåg is seven floors and only 90 apartments.</h2>
+                  <div class="contacts__button">
+                     <div class="contacts__btn btn">Catalog</div>
+                  </div>
+               </div>
+
+               <div class="content-about__body">
+                  <div class="content-about__body-container">
+                     <div class="content-about__body-img-last">
+                        <!-- Картинка -->
+                        <picture>
+                           <source srcset="img/img-last.avif" type="image/avif">
+                           <source srcset="img/img-last.webp" type="image/webp">
+                           <img loading="lazy" src="img/img-last.jpg" alt="" title="">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="container">
+
+            <dia hrefv class="footer-content">
+               <div class="footer-content__left">
+                  <div class="footer-content__left-content">
+                     <div class="footer-content__item"><a href="" class="footer-content__link">About project</a></div>
+                     <div class="footer-content__item"><a href="" class="footer-content__link">Advantages</a></div>
+                     <div class="footer-content__item"><a href="" class="footer-content__link">Choose an apartment
+                           or penthouse</a></div>
+                  </div>
+               </div>
+               <div class="footer-content__right">
+                  <div class="footer-content__right-column">
+                     <div class="footer-content__item">Central office of Bergsvåg</div>
+                     <div class="footer-content__item">Kapelvej str, 25</div>
+                     <div class="footer-content__item">Mon.-Fr.: 9 AM — 5 PM</div>
+                  </div>
+                  <div class="footer-content__right-column">
+                     <div class="footer-content__item">On-site sales office</div>
+                     <div class="footer-content__item">Stengade str, 85</div>
+                     <div class="footer-content__item">24/7</div>
+                  </div>
+               </div>
+            </dia>
+
+            <div class="footer-bottom">
+               <div class="footer-bottom__logo">Bergsvåg</div>
+               <div class="footer-bottom__phone">+45 000 00 00 000</div>
+            </div>
+
+         </div>
+      </footer>
+
+   </div>
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&=shopping&v=weekly"
+      defer>
+      </script>
+</body>
+
+</html>
